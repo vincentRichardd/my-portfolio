@@ -1,4 +1,8 @@
 import { motion } from "framer-motion"
+import Workout from "../images/workout.jpg";
+import RobotMapping from "../images/robot-mapping.png"
+import Scrabble from "../images/Scrabble.png"
+
 
 const projects = [
     {
@@ -10,7 +14,7 @@ const projects = [
             pour la conception de la solution de la base de donnée. Concevoir un système pour entraîneurs et athlètes avec authentification 
             Google Firebase ainsi qu’une optimisation des requêtes PostgreSQL pour haute performance.`
         ,
-        pictureUrl: "src/images/workout.jpg",
+        pictureUrl: Workout,
         technologies: ["React", "React Native", "Firebase", "PostgresSQL"]
     },
     {
@@ -22,7 +26,7 @@ const projects = [
             informations reçues et envoyées vers les robots. Diriger la mise en place d’un environnement de simulation pour tester 
             le comportement des robots. Gérer la communication entre les 3 sous équipes et l’avancement du projet. 
             Implémentation d’un serveur facilitant la communication entre les robots, les clients et la base de données`,
-        pictureUrl: "src/images/robot-mapping.png",
+        pictureUrl: RobotMapping,
         technologies: ["C++", "TypeScript", "MongoDB", "Git", "Docker", "Ubuntu"]
     },
     {
@@ -33,7 +37,7 @@ const projects = [
             Élaborer et concevoir un système de communication par WebSockets entre les joueurs. Concevoir des algorithmes 
             utilisant des arbres binaires afin de créer un joueur virtuel avec plusieurs difficultés.`
         ,
-        pictureUrl: "src/images/Scrabble.png",
+        pictureUrl: Scrabble,
         technologies: ["Angular", "TypeScript", "MongoDB", "Git", "WebSockets"]
     },
 ];

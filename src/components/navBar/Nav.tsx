@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const NavLinks = () => {
     return (
         <>
-            <NavLink to='/about' className={({ isActive }) => isActive ? 'bg-blue-950 py-3 px-4 rounded-md' : 'py-3 px-4 rounded-md'}>À propos</NavLink>
+            <NavLink to='/' className={({ isActive }) => isActive ? 'bg-blue-950 py-3 px-4 rounded-md' : 'py-3 px-4 rounded-md'}>À propos</NavLink>
             <NavLink to="/contact" className={({ isActive }) => isActive ? 'bg-blue-950 py-3 px-4 rounded-md' : 'py-3 px-4 rounded-md'}>Contact</NavLink>
         </>
     );
