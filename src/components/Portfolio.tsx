@@ -1,6 +1,5 @@
 import ExperienceTimeline from "./ExperienceTimeline";
 import ProjectTimeline from "./ProjectTimeline";
-import { motion } from "framer-motion";
 
 const Portfolio = () => {
     const scrollToSection = (id: string) => {
